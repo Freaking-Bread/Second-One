@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	color: #000000;
+	background-color: #ccdef0;
+	background-image: radial-gradient (circle 675px at center, #ffffff 0%, #ccdef0 100%);
+}
+
+.header {
+	width: 100%;
+	height: 900px;
+}
+
+.container {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 70px;
+	margin-bottom: 87px;
+}
+
+.logo {
+	color: #181766;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.logo span {
+	color: #f46868;
+}
+
+.NaVigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+.nav_item {
+	margin-right: 50px;
+}
+
+.nav_item:last-child {
+	margin-right: 0;
+}
+
+.nav_link {
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+}
+
+.nav_link:hover {
+	text-decoration: underline;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-desc {
+	width: 500px;
+	padding-top: 90px;
+}
+
+.header_button {
+	height: 65px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 60px;
+	background-color: #fadb60;
+	background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
+	text-decoration: none;
+	font-family: 'Lemonada', cursive;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 62px;
+}
+
+.header-photo {
+	width: 670px;
+	border-bottom: 1px solid silver;
+}
+
+#overview h2 {
+	text-align: center; 
+	font-family: 'Sansita Swashed', cursive; 
+	font-size:48px; 
+	font-weight: 800;
+	border-top: 2px solid silver;
+}
+
+#overview p {
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+.social {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 27px;
+}
+
+.social a:hover {
+	opacity: 0.7;
+}
+
+.footer {
+	height: 115px;
+	background-color: #232323;
+	color: #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 2px solid silver;
+}
+
+.footer::before {
+	content: "";
+	display: table;
+}
